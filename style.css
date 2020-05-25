@@ -282,7 +282,7 @@ a:hover {
 }
 
 #bloc-1-hero h1 {
-    font-size: 32px;
+    font-size: 3.4em;
 }
 
 .navbar {
@@ -676,7 +676,7 @@ a {
 }
 
 p {
-    font-size: 1.2em;
+    font-size: 1.4em;
 }
 
 .bold {
@@ -710,12 +710,12 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 2em;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 1.6em;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
@@ -785,12 +785,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #372C2C!important;      /* modification de la couleur pour un contraste optimisé avec la couleur orange (#F3976C) */ 
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #1E1212!important;       /* modification de la couleur pour un contraste optimisé avec la couleur orange (#c27956) */ 
 }
 
 .ltc-white {
@@ -805,6 +805,10 @@ h4 {
     color: #F3976C!important;
 }
 
+.txt-contrast {     /* couleur remplaçant le blanc pour un contraste optimisé avec la couleur orange (#F3976C) */
+    color: #372C2C!important;
+}
+
 .ltc-atomic-tangerine:hover {
     color: #c27956!important;
 }
@@ -814,20 +818,16 @@ h4 {
     border-color: #364577!important;
 }
 
-.bg-dots-bg {
-    background-image: url("img/dots-bg.png");
-}
-
-.bg-lines-h2-bg {
-    background-image: url("img/lines-h2-bg.png");
-}
-
 .bg-banniere {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
+}
+
+.social-container {
+    margin: 2em;
 }
 
 @media (max-width: 1024px) {
