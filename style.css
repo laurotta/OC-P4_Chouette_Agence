@@ -139,6 +139,7 @@ a:hover {
 .d-bloc .navbar-brand:hover,
 .d-bloc a:hover .icon-sm,
 .d-bloc a:hover .icon-md,
+.d-bloc a:focus .icon-md,       /* ajout du focus sur les icônes réseaux sociaux */
 .d-bloc a:hover .icon-lg,
 .d-bloc a:hover .icon-xl,
 .d-bloc h1 a:hover,
@@ -332,7 +333,7 @@ a:hover {
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background: #F3976C;    /* couleur dominante sur focus */
 }
 
 .navbar-toggle {
@@ -455,7 +456,12 @@ nav .caret {
 .btn-d:hover,
 .btn-d:focus {
     color: #FFF;
-    background: rgba(0, 0, 0, .3);
+    background: rgba(255, 255, 255, .3);
+}
+
+.btn-focus:focus {
+    background: #c27956!important;
+    color: #1E1212!important; 
 }
 
 button {
@@ -559,6 +565,12 @@ a[data-lightbox]:hover img {
     animation-fill-mode: none;
 }
 
+a[data-lightbox]:focus img {
+    opacity: 0.6;
+    -webkit-animation-fill-mode: none;
+    animation-fill-mode: none;
+}
+
 #lightbox-modal {
     display: flex;
     align-items: center;
@@ -650,7 +662,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #372c2c!important;      /* modification de la couleur pour un contraste optimisé avec la couleur orange (#F3976C) */
 }
 
 .container {
