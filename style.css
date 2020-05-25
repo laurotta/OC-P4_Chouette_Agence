@@ -25,6 +25,15 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+.bquote-p {
+    font-size: 1em;
+}
+
+.bquote-footer {
+    font-size: 0.9em;
+    color: #776B6B;
+}
+
 .bloc {
     width: 100%;
     clear: both;
